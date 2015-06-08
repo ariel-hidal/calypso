@@ -1,30 +1,9 @@
 <% provide(:title, "lightning") %>
-	<h1>CALYPSO<br>MEDiA</h1>
-  <h3 id="work"><a href="index.html">Work</a></li></h3>
-  <ul id="pages">
-		<li><%= link_to "Life in the Dark", lifeinthedark_path %></li>
-		<li><%= link_to "Lightning", lightning_path %></li>
-		<li><%= link_to "Italy", italy_path %></li>
-		<li><%= link_to "Antarctica", antarctica_path %></li>
 
-		</ul>
-		<h3 id="contact">Contact Information</h3>
-		<ul id="links">
-			<li><%= link_to "About", 'google.com' %></li>
-			<li><%= link_to "Flickr", 'https://www.flickr.com/photos/arielthidal/' %></li>
-			<li><%= link_to "Facebook", 'https://www.facebook.com/ArielHidal' %></li>
-			<li><%= link_to "Complaints", 'https://www.youtube.com/watch?v=uPIIeVH6joA' %></li>
-    </ul>
   <div class="images">
-
         <div class="imgbox">
           <img class="photo" src="https://farm9.staticflickr.com/8691/17015421362_645b76d076_b.jpg" />
-            <div class="meta">
-              <img id="aperture" src="aperture.png"/>
-              <img id="exposure" src="exposure.png"/>
-              <img id="focal" src="focal.png"/>
-              <img id="iso" src="iso.png"/>
-            </div>
+          <%= render 'layouts/meta' %>
             <ul class="info">
               <li>f/3.5</li>
               <li>1/30</li>
@@ -34,12 +13,7 @@
           </div>
         <div class="imgbox">
           <img class="photo" src="https://farm9.staticflickr.com/8742/17015984651_8327520f2d_b.jpg" />
-            <div class="meta">
-              <img id="aperture" src="aperture.png"/>
-              <img id="exposure" src="exposure.png"/>
-              <img id="focal" src="focal.png"/>
-              <img id="iso" src="iso.png"/>
-            </div>
+          <%= render 'layouts/meta' %>
             <ul class="info">
               <li>f/3.5</li>
               <li>1/13</li>
@@ -49,12 +23,7 @@
           </div>
         <div class="imgbox">
           <img class="photo" src="https://farm9.staticflickr.com/8754/17015984631_b577208f0d_b.jpg" />
-            <div class="meta">
-              <img id="aperture" src="aperture.png"/>
-              <img id="exposure" src="exposure.png"/>
-              <img id="focal" src="focal.png"/>
-              <img id="iso" src="iso.png"/>
-            </div>
+          <%= render 'layouts/meta' %>
             <ul class="info">
               <li>f/3.5</li>
               <li>1/13</li>
@@ -64,12 +33,7 @@
           </div>
         <div class="imgbox">
           <img class="photo" src="https://farm9.staticflickr.com/8692/16829345640_678c913fbf_b.jpg" />
-            <div class="meta">
-              <img id="aperture" src="aperture.png"/>
-              <img id="exposure" src="exposure.png"/>
-              <img id="focal" src="focal.png"/>
-              <img id="iso" src="iso.png"/>
-            </div>
+          <%= render 'layouts/meta' %>
             <ul class="info">
               <li>f/3.5</li>
               <li>1/13</li>
@@ -79,12 +43,7 @@
           </div>
         <div class="imgbox">
           <img class="photo" src="https://farm8.staticflickr.com/7622/16396735623_a8cfc4abd1_b.jpg" />
-            <div class="meta">
-              <img id="aperture" src="aperture.png"/>
-              <img id="exposure" src="exposure.png"/>
-              <img id="focal" src="focal.png"/>
-              <img id="iso" src="iso.png"/>
-            </div>
+          <%= render 'layouts/meta' %>
             <ul class="info">
               <li>f/7.1</li>
               <li>1/15</li>
