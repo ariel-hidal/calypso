@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
-  get 'static_pages/Lifeintd'
-  get 'static_pages/Lightning'
-  get 'static_pages/Italy'
-  get 'static_pages/Antarctica'
+  get 'lifeinthedark' => 'static_pages#lifeinthedark'
+  get 'lightning'=> 'static_pages#lightning'
+  get 'italy' => 'static_pages#italy'
+  get 'antarctica' => 'static_pages#antarctica'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
