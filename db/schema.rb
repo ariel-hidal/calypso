@@ -11,6 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20150609130758) do
+
+  create_table "photos", force: :cascade do |t|
+    t.string   "set"
+    t.string   "url"
+    t.string   "set_id"
+    t.string   "aperture"
+    t.string   "exposure"
+    t.string   "focal"
+    t.string   "ISO"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end
